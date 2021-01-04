@@ -1,0 +1,445 @@
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Welcome to the party </title>
+    <meta name="description" content="Hello, WebVR! • A-Frame">
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    
+   <style>
+     
+    body {
+  border: none;
+      padding: 0;
+      margin: 0px 0px 0px 0px;
+}
+     
+      .door1 {
+        position: relative;
+        width: 50%;
+        height: 50%;
+        float:right;
+         padding: 0;
+        border: 0;
+        margin: 0px 0px 0px 0px;
+      }
+      
+      .door1 .btn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color:  #f1f1f1;
+        text-color: black;
+        font-size: 16px;
+
+        padding: 16px 30px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+      }
+      
+      
+     .door1 .btn:hover{
+       
+        background-color: black;
+        color: white;
+      }
+     
+     
+      a:link {
+        text-decoration: none;
+        color: black;
+      }
+     
+     a:hover, a:active {
+    color: white;
+      }
+       
+       
+      .door2 {
+        position: relative;
+        width: 50%;
+        height: 50%;
+        border: 0;
+        float:left;
+        padding: 0;
+        margin: 0px 0px 0px 0px;
+        
+      }
+      
+      .door2 .btn2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color:  #f1f1f1;
+        text-olor: black;
+        font-size: 16px;
+
+        padding: 16px 30px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+      }
+      
+      
+     .door2 .btn2:hover{
+       
+        background-color: black;
+        color: white;
+      }
+     
+     
+      a:link {
+        text-decoration: none;
+        color: black;
+      }
+     
+     a:hover, a:active {
+    color: white;
+      }
+     
+     
+      
+      .door3 {
+        position: relative;
+        width: 50%;
+        height: 50%;
+        margin: 0px 0px 0px 0px;
+        float:left;
+        padding: 0;
+        border: 0;
+      }
+      
+      
+      .door3 .btn3 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color:  #f1f1f1;
+        text-olor: black;
+        font-size: 16px;
+        padding: 16px 30px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+      }
+      
+      
+     .door3 .btn3:hover{
+       
+        background-color: black;
+        color: white;
+      }
+     
+     
+      a:link {
+        text-decoration: none;
+        color: black;
+      }
+     
+     a:hover, a:active {
+    color: white;
+      }
+       
+     
+     
+     .door4 {
+        position: relative;
+        width: 50%;
+        height: 50%;
+        padding: 0;
+        float:left;
+        margin: 0px 0px 0px 0px;
+        border: 0;
+      }
+      
+      
+      .door4 .btn4 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color:  #f1f1f1;
+        text-olor: black;
+        font-size: 16px;
+
+        padding: 16px 30px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+      }
+      
+      
+     .door4 .btn4:hover{
+       
+        background-color: black;
+        color: white;
+      }
+     
+     
+      a:link {
+        text-decoration: none;
+        color: black;
+      }
+     
+     a:hover, a:active {
+    color: white;
+      }
+       
+     
+    </style>
+  
+  </head>
+  
+  <body>
+ 
+    
+    
+    
+    
+    
+    
+    
+    <!-- Door 1 -->
+
+     <div class="door1">
+      <img src="https://images.pexels.com/photos/534090/pexels-photo-534090.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" 
+           style="width:100%" />
+      
+      
+       <button class="btn">
+        <a href="room1.html"> Sea World Jazz </a>
+      </button>
+      </div>
+    
+      
+  
+     <!-- Door 2 --> 
+    
+      <div class="door2">
+      <img src="https://images.pexels.com/photos/534090/pexels-photo-534090.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" 
+           style="width:100% "/>
+      
+      
+       <button class="btn2">
+        <a href="room2.html"> Indie Beach </a>
+      </button>
+      </div>
+     
+      
+     <!-- Door 3 --> 
+    
+      <div class="door3">
+      <img src="https://images.pexels.com/photos/534090/pexels-photo-534090.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" 
+           style="width:100%"/>
+      
+      
+       <button class="btn3">
+        <a href="room3.html"> Holidays Pop </a>
+      </button>
+      </div>
+    
+  
+     <!-- Door 4 --> 
+    
+      <div class="door4">
+      <img src="https://images.pexels.com/photos/534090/pexels-photo-534090.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" 
+           style="width:100%"/>
+      
+      
+       <button class="btn4">
+        <a href="room4.html"> Sunset EDM </a>
+      </button>
+      </div>
+  
+  </body>
+</html>
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Indie Beach</title>
+    <meta name="description" content="Hello, WebVR! • A-Frame">
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    
+  </head>
+  
+  <body>
+    <a-scene>
+     
+      
+      <a-assets>
+        
+        <img id="sky" src="https://images.pixexid.com/o106zoh-a-body-of-water.jpeg?w=640&dpr=1.5">
+        <img id="floortexture" src="https://images.pexels.com/photos/5331926/pexels-photo-5331926.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
+        <img id="box1texture" src="https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260">
+        <img id="speakertexture" src="https://images.pexels.com/photos/2310646/pexels-photo-2310646.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"> 
+        <img id="conetexture" src="https://images.pexels.com/photos/1934846/pexels-photo-1934846.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"> 
+        
+        <a-sound id ="music" src= "src: url(https://cdn.glitch.com/5cc47798-7831-4d35-800e-1685c318e742%2Findie.mp3?v=1607370786979)" autoplay="true" position="-4 0 -2.5"></a-sound>
+        
+        <a-video id ="video" src="https://cdn.glitch.com/02dee5aa-e5c1-42a5-8425-e7efd091d012%2F171124_A1_HD_021.mp4?v=1607288954369" autoplay="true" 
+                ></a-video>
+
+      </a-assets>
+      
+        
+    <!-- sky --> 
+      <a-sky src="#sky" > </a-sky>
+      
+     <!-- Writing --> 
+       <a-text value="Indie Stage" color="white" position="1 3 -4" height="15" width="8" letter-spacing="2"></a-text>
+     
+      
+    <!-- video --> 
+        <a-video src="#video" width="30" height="30" position="-10 0 -13" rotation="0 60 0"></a-video>
+ 
+      
+
+    <!-- DJ Stage and Dj Booth --> 
+      <a-box color="#C3CAF0" position="-4 0 -6" rotation="0 60 0" width="5" height="0" depth="6"></a-box> 
+        <a-box src="#box1texture" position="-2.5 1 -4" rotation="0 60 0" width="3" height="1.25" depth="1" ></a-box>     
+      
+    <!-- Floor --> 
+      <a-plane src="#floortexture" rotation="-90 0 0" width="100" height="100"></a-plane>
+      
+      <!-- cones --> 
+      <a-entity position="10 2 -1" radius="5" animation="property: rotation; to: 0 360 0; loop: true; dur: 5000" >
+        <a-cone src="#conetexture" rotation="180 0 0" position="1 0 0" ></a-cone>
+      </a-entity>
+      
+      <a-entity position="3 2 -5" radius="5" animation="property: rotation; to: 0 360 0; loop: true; dur: 5000" >
+        <a-cone src="#conetexture" rotation="180 0 0" position="1 0 0" ></a-cone>
+      </a-entity>
+      
+       <a-entity position="4 2 10" radius="5" animation="property: rotation; to: 0 360 0; loop: true; dur: 6000" >
+        <a-cone src="#conetexture" rotation="180 0 0" position="1 0 0" ></a-cone>
+      </a-entity>
+      
+      <a-entity position="-5 2 3" radius="5" animation="property: rotation; to: 0 360 0; loop: true; dur: 6000" >
+        <a-cone src="#conetexture" rotation="180 0 0" position="1 0 0" ></a-cone>
+      </a-entity>
+      
+      
+      
+      <!-- Speakers --> 
+      <a-box src="#speakertexture" position="-4 0 -2.5" rotation="0 60 0" width="1" height="5" depth="1.5"></a-box> 
+      <a-box src="#speakertexture" position="-1 0 -6" rotation="0 60 0" width="1" height="5" depth="1.5"></a-box> 
+
+      
+     
+      
+
+    </a-scene>
+    
+    
+  </body>
+</html>
+      
+      
+    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>EDM Sunset</title>
+    <meta name="description" content="Hello, WebVR! • A-Frame">
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  </head>
+  
+  <body>
+    <a-scene>
+      
+      <a-assets>
+        <img id="sky" src="https://images.pixexid.com/cy120l19-360-panorama-sunset-in-the-dark.jpeg?w=1300&dpr=1.5">
+        <img id="floortexture" src="https://images.pexels.com/photos/414860/pexels-photo-414860.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+        <img id="box1texture" src="https://images.pixexid.com/mk217rn-stay-home-sign.jpeg?w=1300&dpr=1.5">
+        <img id="speakertexture" src="https://images.pexels.com/photos/1044988/pexels-photo-1044988.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w"> 
+        <a-sound id ="music" src= "src: url(https://cdn.glitch.com/5cc47798-7831-4d35-800e-1685c318e742%2Fedm.mp3?v=1607370783052)" autoplay="true" position="-4 0 -2.5"></a-sound>
+      </a-assets>
+      
+        
+    <!-- sky --> 
+      <a-sky src="#sky"> </a-sky>
+       <a-entity light="type: directional; color: #EEE; intensity: 2" position="5 8 5"></a-entity>
+    
+    
+    <!-- DJ Stage and Dj Booth --> 
+      <a-box color="black" position="-4 0 -6" rotation="0 60 0" width="5" height="0.25" depth="6"></a-box> 
+        <a-box src="#box1texture" position="-2.5 1 -4" rotation="0 60 0" width="3" height="1.25" depth="1" ></a-box>     
+      
+    <!-- Floor --> 
+      <a-plane src="#floortexture" rotation="-90 0 0" width="30" height="30" repeat="20 20"></a-plane>
+       
+      
+  <!-- bouncy balls --> 
+      <a-sphere color="red" position="-6 7 -3" rotation="0 60 0" width="0.5"
+        animation="property: object3D.position.y; to: 2.2; dir: alternate; dur: 2000; loop: true"></a-sphere>
+      <a-sphere color="red" position="1 6 -3" rotation="0 60 0" width="0.5"
+        animation="property: object3D.position.y; to: 2.2; dir: alternate; dur: 1800; loop: true"></a-sphere>
+      <a-sphere color="red" position="-25 8 -1" rotation="0 60 0" width="0.5"
+        animation="property: object3D.position.y; to: 2.2; dir: alternate; dur: 1800; loop: true"></a-sphere>
+      <a-sphere color="red" position="-2 5 4" rotation="0 60 0" width="0.5"
+        animation="property: object3D.position.y; to: 2.2; dir: alternate; dur: 1800; loop: true"></a-sphere>
+      <a-sphere color="red" position="-7 12 -16" rotation="0 60 0" width="0.5"
+        animation="property: object3D.position.y; to: 2.2; dir: alternate; dur: 1800; loop: true"></a-sphere>
+      
+    <!-- Speakers --> 
+      <a-box src="#speakertexture" position="-4 0 -2.5" rotation="0 60 0" width="1" height="5" depth="1"></a-box> 
+      <a-box src="#speakertexture" position="-1 0 -6" rotation="0 60 0" width="1" height="5" depth="1"></a-box> 
+
+      
+     <!-- Avatar -->  
+       <a-entity position="5.609 1.6 -2.082" camera="active:false;userHeight:1.6" wasd-controls="" rotation="-31.054 -0.344 0" look-controls="" aframe-injected="" data-aframe-inspector-original-camera="" data-aframe-inspector="default-camera"></a-entity>
+      <a-cone scale="0.2 .7 0.2" position="0.25 0.35 -3.502" material="" color="#C100FF"></a-cone>
+      <a-cone scale="0.2 .7 0.2" position="-0.25 0.35 -3.502" material="" color="#C100FF"></a-cone>
+      <a-cone scale="0.2 0.7 0.2" position="0.25 0.577 -3.502" material="" rotation="0 0 -180" color="#C100FF"></a-cone>
+      <a-cone scale="0.2 0.7 0.2" position="-0.25 0.577 -3.502" material="" rotation="0 0 -180" color="#C100FF"></a-cone>
+      <a-cone scale="0.45 1 0.2" position="0 1.432 -3.524" material="" geometry="" color="#9700FF"></a-cone>
+      <a-cone scale="0.35 1 0.2" position="0 1.59 -3.524" material="" rotation="0 0 -180" color="#9700FF"></a-cone>
+      <a-cone scale="0.15 0.5 0.15" position="0 2.323 -3.502" material="" color="#FF5EF6"></a-cone>
+      <a-cone scale="0.15 0.5 0.15" position="0 2.597 -3.502" material="" rotation="0 0 0" color="#FF5EF6"></a-cone>
+      <a-cone scale="0.15 0.5 0.15" position="0 2.597 -3.502" material="" rotation="0 0 45" color="#FF5EF6"></a-cone>
+      <a-cone scale="0.15 0.5 0.15" position="0 2.597 -3.502" material="" rotation="0 0 90" color="#FF5EF6"></a-cone>
+      <a-cone scale="0.15 0.5 0.15" position="0 2.597 -3.502" material="" rotation="0 0 125" color="#FF5EF6"></a-cone>
+      <a-cone scale="0.15 0.5 0.15" position="0 2.597 -3.502" material="" rotation="0 0 180" color="#FF5EF6"></a-cone>
+      <a-cone scale="0.15 0.5 0.15" position="0 2.597 -3.502" material="" rotation="0 0 225" color="#FF5EF6"></a-cone>
+      <a-cone scale="0.15 0.5 0.15" position="0 2.597 -3.502" material="" rotation="0 0 270" color="#FF5EF6"></a-cone>
+      <a-cone scale="0.15 0.5 0.15" position="0 2.597 -3.502" material="" rotation="0 0 315" color="#FF5EF6"></a-cone>
+      <a-cone scale="0.1 0.6 0.1" position="0.45 1.898 -3.502" material="" rotation="0 0 45" color="#FF5EF6"></a-cone>
+      <a-cone scale="0.1 0.6 0.1" position="0.45 1.529 -3.502" material="" rotation="0 0 125" color="#FF5EF6"></a-cone>
+      <a-cone scale="0.1 0.6 0.1" position="-0.45 1.898 -3.502" material="" rotation="0 0 -45" color="#FF5EF6"></a-cone>
+      <a-cone scale="0.1 0.6 0.1" position="-0.45 1.529 -3.502" material="" rotation="0 0 -125" color="#FF5EF6"></a-cone>
+      
+      
+  
+    </a-scene>
+  </body>
+</html>
+    
+    
+    
